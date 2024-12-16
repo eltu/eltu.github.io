@@ -60,13 +60,13 @@ Responsável por armazenar os dados normalizados do conteúdo. Por ora vamos abs
 
 Segue abaixo uma representação de dois documentos gravados em um banco de dados:  
 
-<img src="/images/imagem2.png">
+<img src="/assets/img_posts/2024-12-14/imagem2.png">
 
 Como podemos observar acima, a chave tem um valor único que possibilita fazer uma busca simples. Se tivermos a necessidade de procurar pelo "valor" do documento, a busca se torna inviável, pois teremos que processar o texto do documento. 
 
 Na estrutura de índice invertido, que é utilizado por motor de busca, esse conceito é diferente:
 
-<img src="/images/imagem3.png">
+<img src="/assets/img_posts/2024-12-14/imagem3.png">
 
 As chaves são palavras do texto e os valores são os ids dos documentos (documento 1 e documento 2). Os artigos e preposições foram removidos para economizar espaço e deixar somente palavras relevantes.
 
